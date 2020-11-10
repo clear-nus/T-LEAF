@@ -39,7 +39,7 @@ Download datset from:\
 Upzip and place it under:\
 
 Preprocess and build embedder dataset:\
-`python ./src/Action_Recognition/preprocess/build_dataset_cooking.py`
+`python ./src/Action_Recognition/preprocess/build_dataset_action_recognition.py`
 
 
 ### 3.2. Embedder Training
@@ -54,7 +54,7 @@ Train LSTM action recognition model:\
 Baseline:\
 `python ./src/Action_Recognition/LSTM_train.py --memory_predictor`\
 With checker loss:\
-`python ./src/Action_Recognition/LSTM_train.py --memory_predictor --checker_loss`\
+`python ./src/Action_Recognition/LSTM_train.py --memory_pr edictor --checker_loss`\
 With embedder loss:\
 `python ./src/Action_Recognition/LSTM_train.py --memory_predictor --embedder_loss`
 
