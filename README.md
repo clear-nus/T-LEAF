@@ -1,6 +1,8 @@
  # T-LEAF
 
 ## 1. Environment Setup
+`conda env create -f environment.yml`\
+`conda activate tleaf`
 
 ## 2. Synthetic Experiment
 ### 2.1. Dataset Generation and Training
@@ -34,9 +36,10 @@ Run TSNE and plot:\
 
 ## 3. Action Recognition
 ### 3.1. Dataset Download
-Download datset from:\
+Download dataset from:\
 
 Upzip and place it under:\
+`./datasets/Action_Recognition/recipes/`
 
 Preprocess and build embedder dataset:\
 `python ./src/Action_Recognition/preprocess/build_dataset_action_recognition.py`

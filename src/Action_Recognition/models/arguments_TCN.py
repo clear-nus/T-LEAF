@@ -7,7 +7,7 @@ def get_args():
     parser.add_argument("--device_id", default=0, type=int, help="gpu id")
 
     parser.add_argument("--video_dataset_info", type=str, default="./datasets/Action_Recognition/videos/info/")
-    parser.add_argument("--video_dataset_path", type=str, default="/home/user/Documents/zf/LinearTemporalLogicEmbedding/dataset/Label_Dataset/")
+    parser.add_argument("--video_dataset_path", type=str, default="./datasets/Action_Recognition/recipes/")
 
     parser.add_argument("--logic_dataset_path", type=str, default="./datasets/Action_Recognition/")
     parser.add_argument("--logic_dataset_name", type=str, default="/meta_embedder_dataset/")
